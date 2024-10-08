@@ -32,6 +32,12 @@ window.onload = function() {
               noun[sustantivo] +
               extension[ext]
           );
+          document.getElementById("url").innerText +=
+            pronoun[pronombre] +
+            adj[adjetivo] +
+            noun[sustantivo] +
+            extension[ext] +
+            "\n";
         }
       }
     }
